@@ -39,12 +39,20 @@ h1{
     padding:50px;
 }
 
-.box3{
+.col-lg-4{
     order: 3;
     flex-direction: row;
-    width:250px;
     height:300px;
-    padding:50px;
+    background-color: rgb(71, 171, 230);
+}
+
+.col-lg-5{
+    background-color: rgb(71, 171, 230);
+}
+
+.row{
+    justify-content: space-between;
+    
 }
 
 
