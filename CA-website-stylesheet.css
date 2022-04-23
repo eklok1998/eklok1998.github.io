@@ -1,0 +1,787 @@
+.header{
+    padding: 0px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: auto;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+}
+
+.shipping{
+    background-color: rgb(52, 97, 136);
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    padding: 0px;
+    position: fixed;
+    order: 1;
+}
+
+.descheader{
+    font-size: 40px;
+}
+
+h1{
+    font-size: 50px;
+    padding: 0;
+}
+
+h2{
+    font-size: 210%;
+}
+
+h3{
+    font-size: 140%;
+}
+
+.glam{
+    font-size: 40px;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    color:rgb(39, 40, 43);
+    font-family: 'Allison';
+}
+
+
+.readytitle{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-size: 80px;
+    color:rgb(255, 255, 255);
+    font-family: "Abel";
+}
+
+body{
+    background-color:rgb(245, 244, 240);
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.aboutus{
+    background-color: rgb(162, 227, 245);
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+@media(max-width:700px){
+    .aboutusimage, .aboutustext{
+        flex: 100%;
+    }
+}
+
+.aboutusimage{
+    order:1;
+    width: 50%;
+    padding:0px;
+}
+
+.aboutustext{
+    order: 2;
+    width: 50%;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 30px;
+    font-family: "Abel";
+}
+
+ul{
+    list-style-type: none;
+    padding: 10px;
+    margin: 0px;
+    position: fixed;
+}
+
+.descrow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media(max-width:700px){
+    .landingimage, .descbox{
+        flex: 100%;
+    }
+}
+
+@media(max-width:700px){
+    .aboutustext{
+        padding-bottom: 50px;
+    }
+}
+
+.landingimage{
+    order: 2;
+    width: 30%;
+    height: 400px;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+
+.descbox{
+    order: 1;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    background-color: #c6c8c7;
+    width: 70%;
+    height: 400px;
+    font-family: "Abel";
+    
+    
+}
+
+.imagelanding{
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    text-align: center;
+    position: relative;
+}
+
+.menu{
+    background-color: rgb(144, 195, 229);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 5px;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    position: fixed;
+    z-index: 2;
+}
+
+
+
+.ul{
+    flex-direction: row;
+    width: 10px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.linkmenu{
+    width: auto;
+}
+
+.contactform{
+    background-color: #1a1418;
+    width: 75%;
+    height: 400px;
+    order: 2;
+    color:rgb(255, 255, 255);
+    padding-left: 30px;
+}
+
+.contacttitle{
+    padding-left: 60px;
+    padding-top: 20px;
+    top: 10px;
+    color:rgb(255, 255, 255)
+}
+
+a:link{
+    color:white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+form{
+    padding-left: 80px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+
+@media(max-width:700px){
+    .firsthalf, .secondhalf{
+        padding: 40px;
+        flex: 50%;
+        
+    }
+}
+
+.signuprow{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom:0;
+    padding-bottom:0;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.signupimage{
+    order: 1;
+    width: 25%;
+    height: 400px;
+}
+
+@media(max-width: 700px){
+    .signupimage, .contactform{
+        flex: 100%;
+    }
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.glamdiv{
+    order: 3;
+    height: 50px;
+    position: relative;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.gallery{
+    position: relative;
+    padding-left: 20px;
+    padding-left: 20px;
+    padding-top: 0px;
+
+    background-image: url("images/instagram/bluebg1.png");
+}
+
+.instaimage{
+    height: 430px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    display: none;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.prev,
+.next{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: rgb(133, 191, 241);
+    background-color:rgb(242, 242, 242);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next{
+    right: 20px;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext{
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.caption-container{
+    text-align: center;
+    background-color: rgb(99, 140, 168);
+    padding: 2px 9px;
+    color: white;
+    font-size: 15px;
+}
+
+.rowgallery:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column{
+    float: left;
+    width: 16.66%;
+}
+
+.demo{
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+.glitterpicture{
+    width: 15%;
+    height: 200px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+@media(max-width: 700px){
+    .glitterpicture{
+        margin-bottom: 40px;
+    }
+}
+
+.glitterpicture:hover{
+    cursor: pointer;
+}
+
+.shopnow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 70px;
+    font-family: "Abel";
+}
+
+@media(max-width:700px){
+    .glitterpicture{
+        flex: 50%;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 80px;
+        height: 300px;
+    }
+}
+
+.gallerytitle{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align:center;
+}
+
+.shopnowheading{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.bestseller{
+    text-align: center;
+    font-family: "Abel";
+}
+
+.shownow > .your-column{
+    padding: 0 8px;
+}
+
+.shopnow:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.your-column{
+    float: left;
+    width: 15%;
+    height: 80px;
+}
+
+.glittermodal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(253, 255, 255);
+}
+
+.glitter-modal-content{
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 600px;
+    height: 600px;
+    max-width: 1200px;
+}
+
+.yourclose{
+    color: lightblue;
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.yourclose:hover, .yourclose:focus{
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.yourSlides{
+    display: none;
+    height: 450px;
+}
+
+.yourprev,.yournext{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: rgb(164, 232, 241);
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.yournext{
+    right: -40px;
+    border-radius: 3px 0 0 3px;
+}
+
+.yourprev{
+    left: -40px;
+}
+
+.yourprev:hover, .yournext:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.yournumbertext{
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.your-caption-container{
+    text-align: center;
+    background-color: rgb(129, 181, 226);
+    padding: 2px 16px;
+    color: rgb(255, 255, 255);
+}
+
+img.yourdemo{
+    opacity: 0.8;
+}
+
+.active, .yourdemo:hover{
+    opacity: 0.6;
+}
+
+img.hover-shadow{
+    transition: 0.3s;
+}
+
+.hover-shadow:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chunkytitle{
+    text-align: center;
+}
+
+.chunky{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 90px;
+    padding-bottom: 60px;
+    font-family: "Abel";
+}
+
+@media(max-width:700px){
+    .chunkypicture{
+        flex: 50%;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 90px;
+    }
+}
+
+.chunkypicture{
+    width: 15%;
+    height: 230px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: "Abel";
+}
+
+.buybutton{
+    margin-bottom: 20px;
+}
+
+.buybutton:hover{
+    background-color:rgb(188, 214, 236)
+}
+
+#myImg, #myImg1, #myImg2, #myImg3 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover, #myImg1:hover, #myImg2:hover, #myImg3:hover{
+    opacity: 0.7;
+}
+
+.modal {
+    display: hidden; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+  }
+
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+
+  #caption, #caption1, #caption2, #caption3 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  .modal-content, #caption, #caption1, #caption2, #caption3 {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+  }
+
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+.close, .close1, .close2, .close3 {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+.nailglitter{
+    flex-direction: row;
+    height: 400px;
+}
+
+.nailglittertitle{
+    padding-top:50px;
+    font-size: 80px;
+}
+
+.nailtitle{
+    width: 50%;
+    padding-left: 30px;
+    background-color: pink;
+}
+
+
+.nailpicture{
+    width: 50%;
+}
+
+.buttonmodal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+.buttonmodalcontent{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+  
+.buttonclose{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.buttonclose:hover,
+.buttonclose:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.buybutton{
+    background-color: rgb(187, 229, 243);
+    border:none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#dontmissout{
+    height: auto;
+}
+
+@media(max-width:700px){
+    .dontmissout{
+        margin-bottom: 20px;
+    }
+}
+
+.handgallery{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.handpicture{
+    width: 150px;
+    height: 150px;
+}
+
+@media(max-width: 700px){
+    .handpicture{
+        flex: 50%;
+    }
+}
+
+.handpicture:hover{
+    opacity: 0.7;
+}
+
+.handbutton{
+    width: 150px;
+    height: 150px;
+    position:absolute;
+}
+
+
+#hand1{
+    background-image: url("images/nails/pinky.png");
+    background-size: contain;
+}
+
+#hand2{
+    background-image: url("images/nails/lollipop.jpeg");
+    background-size: contain;
+}
+
+#hand3{
+    background-image: url("images/nails/fingerscrossed.jpeg");
+    background-size: contain;
+}
+
+#hand4{
+    background-image: url("images/nails/flowerhand.jpeg");
+    background-size: contain;
+
+}
+
+
+#heartnails{
+    height: 400px;
+}
+
+.nailprize{
+    height: 400px;
+    width: 400px;
+    display:none;
+    position: relative;
+    top: -150px;
+    margin: 0;
+    padding: 0;
+    left: 30px;
+}
