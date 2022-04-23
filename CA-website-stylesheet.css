@@ -267,7 +267,7 @@ img{
     padding-left: 20px;
     padding-top: 0px;
 
-    background-image: url("images/instagram/bluebg1.png");
+    background-image: url("Images/instagram/bluebg1.png");
 }
 
 .instaimage{
@@ -750,22 +750,22 @@ img.hover-shadow{
 
 
 #hand1{
-    background-image: url("images/nails/pinky.png");
+    background-image: url("Images/nails/pinky.png");
     background-size: contain;
 }
 
 #hand2{
-    background-image: url("images/nails/lollipop.jpeg");
+    background-image: url("Images/nails/lollipop.jpeg");
     background-size: contain;
 }
 
 #hand3{
-    background-image: url("images/nails/fingerscrossed.jpeg");
+    background-image: url("Images/nails/fingerscrossed.jpeg");
     background-size: contain;
 }
 
 #hand4{
-    background-image: url("images/nails/flowerhand.jpeg");
+    background-image: url("Images/nails/flowerhand.jpeg");
     background-size: contain;
 
 }
